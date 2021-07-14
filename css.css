@@ -67,3 +67,11 @@ section .color:nth-child(3) {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.form h2 {
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
