@@ -106,3 +106,13 @@ section .color:nth-child(3) {
 .form .inputBox input::placeholder {
   color: #fff;
 }
+
+.more {
+  margin-top: 13px;
+  color: #fff;
+}
+
+.more a {
+  color: #fff;
+  font-weight: 600px;
+}
