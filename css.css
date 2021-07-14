@@ -52,6 +52,46 @@ section .color:nth-child(3) {
   padding-top: 150px;
 }
 
+.box .square {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.box .square:nth-child(1) {
+  top: 500px;
+  right: 350px;
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+}
+
+.box .square:nth-child(2) {
+  top: 100px;
+  right: -70px;
+  width: 120px;
+  height: 120px;
+}
+
+.box .square:nth-child(3) {
+  top: 550px;
+  left: 500px;
+  width: 90px;
+  height: 90px;
+}
+
+.box .square:nth-child(4) {
+  top: 50px;
+  right: 500px;
+  width: 130px;
+  height: 70px;
+}
+
 .container {
   position: relative;
   width: 400px;
