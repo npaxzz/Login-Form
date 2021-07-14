@@ -12,3 +12,38 @@ body {
   /* ซ่อนตัวเลื่อน */
   overflow: hidden;
 }
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100pv;
+  background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+section .color {
+  position: absolute;
+  filter: blur(150px);
+}
+
+section .color:nth-child(1) {
+  width: 600px;
+  height: 600px;
+  background: #ff359b;
+}
+
+section .color:nth-child(2) {
+  bottom: -150px;
+  left: 100px;
+  width: 600px;
+  height: 500px;
+  background: #fffd87;
+}
+
+section .color:nth-child(3) {
+  bottom: -150px;
+  right: 100px;
+  width: 600px;
+  height: 500px;
+  background: #00d2ff;
+}
