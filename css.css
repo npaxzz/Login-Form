@@ -85,3 +85,24 @@ section .color:nth-child(3) {
   height: 4px;
   background: #fff;
 }
+
+.form .inputBox {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.form .inputBox input {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 35px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.form .inputBox input::placeholder {
+  color: #fff;
+}
