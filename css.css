@@ -61,6 +61,17 @@ section .color:nth-child(3) {
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
 }
 
 .box .square:nth-child(1) {
